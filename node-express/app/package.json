@@ -1,0 +1,36 @@
+{
+  "name": "sustainability-website",
+  "version": "1.0.0",
+  "description": "University group website about sustainability, built with Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamescorrett/sustainability-website.git"
+  },
+  "keywords": [
+    "sustainability",
+    "environment",
+    "awareness"
+  ],
+  "author": "University group project (four contributors)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamescorrett/sustainability-website/issues"
+  },
+  "homepage": "https://github.com/jamescorrett/sustainability-website#readme",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

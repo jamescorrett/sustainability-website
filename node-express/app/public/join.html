@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UN Sustainability</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signupStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="./scripts/app.js"></script>
+<script src="./scripts/joinApp.js"></script>
+</head>
+<body data-page="form">
+
+    <a class="icon" id="hamburger"><i class="fa fa-bars"></i></a>
+    
+    <nav id="navBar">
+  
+    </nav>
+
+    <main>
+        <section class="imgform" id="imgform">
+            <form action="/form" id="myForm" method="post">
+                <fieldset>
+
+                    <h1 id="title"></h1>
+
+                    <label for="name" id="nameLabel"></label>
+                    <input type="text" name="name" required id="Name">
+
+                    <label for="lastname" id="lastname" maxlength ="20"></label>
+                    <input type="text" name="lastname" required id="lastname">
+
+                    <label for="email" id="emailLabel"> </label>
+                    <input type="email" name="email" required id="email">
+
+                    <label for="Comments" id="Comments"></label>
+                    <textarea name="Comments" rows="5"></textarea>
+
+                    <input type="submit" id="ConfirmMessage" value="Send Message" class="btn">
+
+                    <p id="Confirmation"></p>
+                   
+                </fieldset>
+            </form>
+        </section>
+</main>
+<footer>
+</footer>
+</body>
+</html>
